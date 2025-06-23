@@ -1,0 +1,50 @@
+type: collection.insomnia.rest/5.0
+name: Blog Pessoal
+meta:
+  id: wrk_820ea6f291614d3797f13f2b3a7fc61a
+  created: 1750716201739
+  modified: 1750716270693
+  description: ""
+collection:
+  - name: Postagem
+    meta:
+      id: fld_de5c92ba09fa43e4b7d524063788fe29
+      created: 1750716286371
+      modified: 1750716366872
+      sortKey: -1750716286371
+      description: ""
+    children:
+      - url: http://localhost:3000/postagens
+        name: Consultar todas as Postagens
+        meta:
+          id: req_8200b0a3ae264e81ad102d73fe6c9d93
+          created: 1750716301654
+          modified: 1750716709727
+          isPrivate: false
+          description: ""
+          sortKey: -1750716301654
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.2.0
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_b1a51fc2e06d0a2f66e437b5a732da7f3eb7fab2
+    created: 1750716201769
+    modified: 1750716201769
+environments:
+  name: Base Environment
+  meta:
+    id: env_b1a51fc2e06d0a2f66e437b5a732da7f3eb7fab2
+    created: 1750716201753
+    modified: 1750716201753
+    isPrivate: false

@@ -10,7 +10,7 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe());
 
   app.enableCors({
-    origin: 'https://blogale.com', // Substitua pelo domínio permitido
+    origin: 'https://blogpessoal.com', // Substitua pelo domínio permitido
     methods: 'GET,POST,PUT,DELETE', // Métodos permitidos
     allowedHeaders: 'Content-Type, Authorization', // Cabeçalhos permitidos
   });
