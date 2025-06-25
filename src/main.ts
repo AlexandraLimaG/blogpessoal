@@ -10,9 +10,9 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe());
 
   app.enableCors({
-    origin: 'https://blogpessoal.com', // Substitua pelo domínio permitido
-    methods: 'GET,POST,PUT,DELETE', // Métodos permitidos
-    allowedHeaders: 'Content-Type, Authorization', // Cabeçalhos permitidos
+    origin: 'https://blogpessoal.com', 
+    methods: 'GET,POST,PUT,DELETE', 
+    allowedHeaders: 'Content-Type, Authorization', 
   });
 
   await app.listen(process.env.PORT ?? 3000);
